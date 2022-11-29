@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(75, 75, 75);
+}
+main {
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+}
+header {
+text-shadow: 0 0 5px #000000;
+font-family: monospace ;
+font-size: 50px;
+color: aliceblue;
+text-align: center;
+}
+
+#box1 {
+    color: white;
+    border-width: 8px;
+    margin-left: 310px;
+    margin-right: 20px;
+}
+#box2 {
+    color: white;
+    box-shadow: 0 0 10px #ffc107;
+    border-style: solid;
+    margin-left: 40px;
+}
+#inside1_box1 {
+    font-family: monospace;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+#inside1_box2 {
+    
+}
+
+#inside2_box1{
+font-family: monospace;
+color: white;
+margin-top: 15px;
+}
+
+.label1_nome{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.label2_email{ 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button1_enviar{
+    margin-top: 60px ;
+}
+
+footer{
+    margin-top: 218px;
+    text-align: center;
+}
